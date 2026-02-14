@@ -1,0 +1,26 @@
+{
+  "name": "api_automation_salsabila",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests --reporter mochawesome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salsariyadi/api_automation_salsabila.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/salsariyadi/api_automation_salsabila/issues"
+  },
+  "homepage": "https://github.com/salsariyadi/api_automation_salsabila#readme",
+  "devDependencies": {
+    "chai": "^6.2.2",
+    "mocha": "^11.7.5",
+    "mochawesome": "^7.1.4"
+  }
+}

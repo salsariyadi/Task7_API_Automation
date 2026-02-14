@@ -1,0 +1,24 @@
+{
+  "name": "api_automation_salsabila",
+  "version": "1.0.0",
+  "description": "API Automation using Mocha, Chai, AJV",
+  "type": "module",
+  "scripts": {
+    "test": "mocha \"api/**/*.js\" --reporter mochawesome --timeout 60000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/salsariyadi/api_automation_salsabila.git"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "ajv": "^8.12.0",
+    "chai": "^4.3.10",
+    "mocha": "^11.0.0",
+    "mochawesome": "^7.1.3",
+    "node-fetch": "^3.3.2"
+  },
+  "dependencies": {
+    "ajv-formats": "^3.0.1"
+  }
+}
